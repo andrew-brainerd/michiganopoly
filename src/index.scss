@@ -1,4 +1,8 @@
+/* stylelint-disable */
+@import './styles/colors.scss';
+
 body {
+  background: $gray-40;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

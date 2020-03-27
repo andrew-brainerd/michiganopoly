@@ -1,13 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Provider } from 'react-redux';
+import configureStore, { history } from './store/configureStore';
 import * as serviceWorker from './serviceWorker';
+import WebFont from 'webfontloader';
+import appInfo from '../package.json';
+import App from './components/App/App';
+import './index.scss';
+
+console.log(
+  `%cMichiganopoly v${appInfo.version}`,
+  'color: purple; font-size: 20px;'
+);
+
+console.log(appInfo);
+
+WebFont.load({
+  google: {
+    families: [
+      'Roboto Mono: 400'
+    ]
+  }
+});
+
+const store = configureStore();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <App history={history} />
+  </Provider>,
   document.getElementById('root')
 );
 
