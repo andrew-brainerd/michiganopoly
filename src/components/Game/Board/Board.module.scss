@@ -1,0 +1,46 @@
+
+$spaceSize: 75px;
+$boardSize: 500px;
+
+.board {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: $spaceSize auto $spaceSize;
+  grid-template-rows: $spaceSize auto $spaceSize;
+  height: $boardSize;
+  position: relative;
+  width: $boardSize;
+
+  .cornerSpace {
+    align-items: center;
+    color: white;
+    display: flex;
+    height: $spaceSize;
+    justify-content: center;
+    width: $spaceSize;
+  }
+
+  .go {
+    background: green;
+    grid-column: 3;
+    grid-row: 3
+  }
+
+  .jail {
+    background: red;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .freeParking {
+    background: blue;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .goToJail {
+    background: orange;
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
