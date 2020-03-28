@@ -18,15 +18,31 @@ $boardSize: 627px;
     background: white;
     border: 2px solid black;
     cursor: default;
-    display: flex;
-    font-size: 10px;
-    justify-content: center;
-    padding: 10px;
+    position: relative;
     text-align: center;
     transition: 0.3s all;
 
     &:hover {
       transform: translateY(-5px);
+    }
+
+    .header {
+      border-bottom: 2px solid black;
+      height: 12px;
+      width: 100%
+    }
+
+    .name {
+      font-size: 8px;
+      padding-top: 5px;
+      width: 100%;
+    }
+
+    .value {
+      bottom: 5px;
+      font-size: 12px;
+      position: absolute;
+      width: 100%;
     }
   }
 }

@@ -23,7 +23,9 @@ export const spaces = [
   {
     key: 'corunna',
     name: 'Corunna',
+    isProperty: true,
     color: 'brown',
+    value: 60,
     column: 10,
     row: 11
   },
@@ -36,7 +38,9 @@ export const spaces = [
   {
     key: 'owosso',
     name: 'Owosso',
+    isProperty: true,
     color: 'brown',
+    value: 60,
     column: 8,
     row: 11
   },
@@ -49,14 +53,18 @@ export const spaces = [
   {
     key: 'readingRailroad',
     name: 'Reading Railroad',
+    isProperty: true,
     isRailroad: true,
+    value: 200,
     column: 6,
     row: 11
   },
   {
     key: 'frankenmuth',
     name: 'Frankenmuth',
+    isProperty: true,
     color: 'lightBlue',
+    value: 100,
     column: 5,
     row: 11
   },
@@ -69,14 +77,18 @@ export const spaces = [
   {
     key: 'birchRun',
     name: 'Birch Run',
+    isProperty: true,
     color: 'lightBlue',
+    value: 100,
     column: 3,
     row: 11
   },
   {
     key: 'saginaw',
     name: 'Saginaw',
+    isProperty: true,
     color: 'lightBlue',
+    value: 120,
     column: 2,
     row: 11
   },
