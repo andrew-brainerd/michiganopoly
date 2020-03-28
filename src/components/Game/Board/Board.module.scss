@@ -21,6 +21,7 @@ $boardSize: 627px;
     position: relative;
     text-align: center;
     transition: 0.3s all;
+    user-select: none;
 
     &:hover {
       transform: scale(1.05);

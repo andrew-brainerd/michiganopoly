@@ -176,5 +176,83 @@ export const spaces = [
     value: 200,
     column: 1,
     row: 2
+  },
+  {
+    key: 'pontiac',
+    name: 'Pontiac',
+    isProperty: true,
+    color: 'red',
+    value: 220,
+    column: 2,
+    row: 1
+  },
+  {
+    key: 'chanceTop',
+    name: 'Chance',
+    column: 3,
+    row: 1
+  },
+  {
+    key: 'farmingtonHills',
+    name: 'Farmington Hills',
+    isProperty: true,
+    color: 'red',
+    value: 220,
+    column: 4,
+    row: 1
+  },
+  {
+    key: 'detroit',
+    name: 'Detroit',
+    isProperty: true,
+    color: 'red',
+    value: 240,
+    column: 5,
+    row: 1
+  },
+  {
+    key: 'grandElkRailroad',
+    name: 'Grand Elk Railroad',
+    isProperty: true,
+    isRailroad: true,
+    value: 200,
+    column: 6,
+    row: 1
+  },
+  {
+    key: 'allendale',
+    name: 'Allendale',
+    isProperty: true,
+    color: 'yellow',
+    value: 260,
+    column: 7,
+    row: 1
+  },
+  {
+    key: 'kentwood',
+    name: 'Kentwood',
+    isProperty: true,
+    color: 'yellow',
+    value: 260,
+    column: 8,
+    row: 1
+  },
+  {
+    key: 'michiganWaterCompany',
+    name: 'Michigan Water Company',
+    isProperty: true,
+    isUtility: true,
+    value: 150,
+    column: 9,
+    row: 1
+  },
+  {
+    key: 'grandRapids',
+    name: 'Grand Rapids',
+    isProperty: true,
+    color: 'yellow',
+    value: 280,
+    column: 10,
+    row: 1
   }
 ];
