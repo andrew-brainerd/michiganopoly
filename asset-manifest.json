@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/andrew-brainerd.github.io/michiganopoly/static/css/main.985e136c.chunk.css",
-    "main.js": "/andrew-brainerd.github.io/michiganopoly/static/js/main.11505c45.chunk.js",
-    "main.js.map": "/andrew-brainerd.github.io/michiganopoly/static/js/main.11505c45.chunk.js.map",
-    "runtime-main.js": "/andrew-brainerd.github.io/michiganopoly/static/js/runtime-main.e54a8720.js",
-    "runtime-main.js.map": "/andrew-brainerd.github.io/michiganopoly/static/js/runtime-main.e54a8720.js.map",
-    "static/js/2.6754b8cf.chunk.js": "/andrew-brainerd.github.io/michiganopoly/static/js/2.6754b8cf.chunk.js",
-    "static/js/2.6754b8cf.chunk.js.map": "/andrew-brainerd.github.io/michiganopoly/static/js/2.6754b8cf.chunk.js.map",
-    "index.html": "/andrew-brainerd.github.io/michiganopoly/index.html",
-    "precache-manifest.6c5b4024ff84a70abcd6f20b4c4aa65d.js": "/andrew-brainerd.github.io/michiganopoly/precache-manifest.6c5b4024ff84a70abcd6f20b4c4aa65d.js",
-    "service-worker.js": "/andrew-brainerd.github.io/michiganopoly/service-worker.js",
-    "static/css/main.985e136c.chunk.css.map": "/andrew-brainerd.github.io/michiganopoly/static/css/main.985e136c.chunk.css.map",
-    "static/js/2.6754b8cf.chunk.js.LICENSE.txt": "/andrew-brainerd.github.io/michiganopoly/static/js/2.6754b8cf.chunk.js.LICENSE.txt"
+    "main.css": "/michiganopoly/static/css/main.985e136c.chunk.css",
+    "main.js": "/michiganopoly/static/js/main.77b2f028.chunk.js",
+    "main.js.map": "/michiganopoly/static/js/main.77b2f028.chunk.js.map",
+    "runtime-main.js": "/michiganopoly/static/js/runtime-main.3e2946ae.js",
+    "runtime-main.js.map": "/michiganopoly/static/js/runtime-main.3e2946ae.js.map",
+    "static/js/2.6754b8cf.chunk.js": "/michiganopoly/static/js/2.6754b8cf.chunk.js",
+    "static/js/2.6754b8cf.chunk.js.map": "/michiganopoly/static/js/2.6754b8cf.chunk.js.map",
+    "index.html": "/michiganopoly/index.html",
+    "precache-manifest.287fab8bde98a9f9ccddbb850cc22606.js": "/michiganopoly/precache-manifest.287fab8bde98a9f9ccddbb850cc22606.js",
+    "service-worker.js": "/michiganopoly/service-worker.js",
+    "static/css/main.985e136c.chunk.css.map": "/michiganopoly/static/css/main.985e136c.chunk.css.map",
+    "static/js/2.6754b8cf.chunk.js.LICENSE.txt": "/michiganopoly/static/js/2.6754b8cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e54a8720.js",
+    "static/js/runtime-main.3e2946ae.js",
     "static/js/2.6754b8cf.chunk.js",
     "static/css/main.985e136c.chunk.css",
-    "static/js/main.11505c45.chunk.js"
+    "static/js/main.77b2f028.chunk.js"
   ]
 }
