@@ -18,6 +18,7 @@ const Board = () => {
         isCornerSpace,
         isProperty,
         isRailroad,
+        isUtility,
         color,
         value,
         column,
@@ -42,7 +43,7 @@ const Board = () => {
               !isCornerSpace && styles[getLocation(column, row)]
             ].join(' ')}
           >
-            {isProperty && !isRailroad &&
+            {isProperty && !isRailroad && !isUtility &&
               <div className={styles.header} style={{ backgroundColor: color }}></div>
             }
             <div className={styles.name}>{name}</div>

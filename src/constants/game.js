@@ -51,8 +51,8 @@ export const spaces = [
     row: 11
   },
   {
-    key: 'readingRailroad',
-    name: 'Reading Railroad',
+    key: 'lakeStateRailway',
+    name: 'Lake State Railway',
     isProperty: true,
     isRailroad: true,
     value: 200,
@@ -107,5 +107,74 @@ export const spaces = [
     value: 140,
     column: 1,
     row: 10
+  },
+  {
+    key: 'dteEnergy',
+    name: 'DTE Energy',
+    isProperty: true,
+    isUtility: true,
+    value: 150,
+    column: 1,
+    row: 9
+  },
+  {
+    key: 'midland',
+    name: 'Midland',
+    isProperty: true,
+    color: 'magenta',
+    value: 140,
+    column: 1,
+    row: 8
+  },
+  {
+    key: 'bayCity',
+    name: 'Bay City',
+    isProperty: true,
+    color: 'magenta',
+    value: 160,
+    column: 1,
+    row: 7
+  },
+  {
+    key: 'midMichiganRailroad',
+    name: 'Mid-Michigan Railroad',
+    isProperty: true,
+    isRailroad: true,
+    value: 200,
+    column: 1,
+    row: 6
+  },
+  {
+    key: 'grandLedge',
+    name: 'Grand Ledge',
+    isProperty: true,
+    color: 'orange',
+    value: 180,
+    column: 1,
+    row: 5
+  },
+  {
+    key: 'communityChestLeft',
+    name: 'Community Chest',
+    column: 1,
+    row: 4
+  },
+  {
+    key: 'okemos',
+    name: 'Okemos',
+    isProperty: true,
+    color: 'orange',
+    value: 180,
+    column: 1,
+    row: 3
+  },
+  {
+    key: 'lansing',
+    name: 'Lansing',
+    isProperty: true,
+    color: 'orange',
+    value: 200,
+    column: 1,
+    row: 2
   }
 ];
