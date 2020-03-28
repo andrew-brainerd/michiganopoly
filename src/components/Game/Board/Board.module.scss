@@ -23,26 +23,66 @@ $boardSize: 627px;
     transition: 0.3s all;
 
     &:hover {
-      transform: translateY(-5px);
+      transform: scale(1.05);
     }
 
-    .header {
-      border-bottom: 2px solid black;
-      height: 12px;
-      width: 100%
+    .content {
+      height: 100%;
+      margin: 0;
+      width: $spaceSize - 4px;
+
+      &.left {
+        transform: rotate(90deg);
+
+        .header {
+          position: relative;
+          top: -22px;
+        }
+
+        .name {
+          position: relative;
+          top: -22px;
+        }
+      }
+
+      &.top {
+        transform: rotate(180deg);
+      }
+
+      &.right {
+        transform: rotate(-90deg);
+      }
+
+      .header {
+        border-bottom: 2px solid black;
+        height: 12px;
+        width: 100%;
+      }
+
+      .name {
+        font-size: 8px;
+        padding-top: 5px;
+        width: 100%;
+      }
+
+      .value {
+        bottom: 5px;
+        font-size: 12px;
+        position: absolute;
+        width: 100%;
+      }
     }
 
-    .name {
-      font-size: 8px;
-      padding-top: 5px;
-      width: 100%;
-    }
+    &.cornerSpace {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
 
-    .value {
-      bottom: 5px;
-      font-size: 12px;
-      position: absolute;
-      width: 100%;
+      .content {
+        .name {
+          font-size: 14px;
+        }
+      }
     }
   }
 }

@@ -98,5 +98,14 @@ export const spaces = [
     isCornerSpace: true,
     column: 1,
     row: 11
+  },
+  {
+    key: 'mountPleasant',
+    name: 'Mount Pleasant',
+    isProperty: true,
+    color: 'magenta',
+    value: 140,
+    column: 1,
+    row: 10
   }
 ];
