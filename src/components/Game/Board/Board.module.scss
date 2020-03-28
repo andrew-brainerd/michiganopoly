@@ -1,10 +1,11 @@
+@import '../../../styles/colors.scss';
+
 $cornerSpaceSize: 75px;
 $spaceSize: 53px;
 $boardSize: 627px;
 
-@import '../../../styles/colors.scss';
-
 .board {
+  background: $lightGreen;
   border: 2px solid $gray-30;
   display: grid;
   grid-template-columns: $cornerSpaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $cornerSpaceSize;
@@ -52,6 +53,11 @@ $boardSize: 627px;
 
       &.right {
         transform: rotate(-90deg);
+
+        .value {
+          position: relative;
+          bottom: -20px;
+        }
       }
 
       .header {

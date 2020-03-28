@@ -254,5 +254,77 @@ export const spaces = [
     value: 280,
     column: 10,
     row: 1
+  },
+  {
+    key: 'chelsea',
+    name: 'Chelsea',
+    isProperty: true,
+    color: 'green',
+    value: 300,
+    column: 11,
+    row: 2
+  },
+  {
+    key: 'canton',
+    name: 'Canton',
+    isProperty: true,
+    color: 'green',
+    value: 300,
+    column: 11,
+    row: 3
+  },
+  {
+    key: 'communityChestRight',
+    name: 'Community Chest',
+    column: 11,
+    row: 4
+  },
+  {
+    key: 'annArbor',
+    name: 'Ann Arbor',
+    isProperty: true,
+    color: 'green',
+    value: 300,
+    column: 11,
+    row: 5
+  },
+  {
+    key: 'annArborRailroad',
+    name: 'Ann Arbor Railroad',
+    isProperty: true,
+    isRailroad: true,
+    value: 200,
+    column: 11,
+    row: 6
+  },
+  {
+    key: 'chanceRight',
+    name: 'Chance',
+    column: 11,
+    row: 7
+  },
+  {
+    key: 'petoskey',
+    name: 'Petoskey',
+    isProperty: true,
+    color: 'blue',
+    value: 350,
+    column: 11,
+    row: 8
+  },
+  {
+    key: 'luxuryTax',
+    name: 'Luxury Tax',
+    column: 11,
+    row: 9
+  },
+  {
+    key: 'tranverseCity',
+    name: 'Traverse City',
+    isProperty: true,
+    color: 'blue',
+    value: 400,
+    column: 11,
+    row: 10
   }
 ];
