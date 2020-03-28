@@ -1,35 +1,50 @@
+$cornerSpaceSize: 75px;
+$spaceSize: 53px;
+$boardSize: 627px;
 
-$spaceSize: 75px;
-$boardSize: 500px;
+@import '../../../styles/colors.scss';
 
 .board {
-  border: 2px solid black;
+  border: 2px solid $gray-30;
   display: grid;
-  grid-template-columns: $spaceSize auto $spaceSize;
-  grid-template-rows: $spaceSize auto $spaceSize;
+  grid-template-columns: $cornerSpaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $cornerSpaceSize;
+  grid-template-rows: $cornerSpaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $spaceSize $cornerSpaceSize;
   height: $boardSize;
+  padding: 1px;
   position: relative;
   width: $boardSize;
 
-  .cornerSpace {
-    align-items: center;
-    color: white;
+  .space {
+    background: white;
+    border: 2px solid black;
+    cursor: default;
     display: flex;
-    height: $spaceSize;
+    font-size: 10px;
     justify-content: center;
-    width: $spaceSize;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s all;
+
+    &:hover {
+      // border: 2px solid yellow;
+      transform: scale(1.1);
+    }
+  }
+
+  .cornerSpace {
+    color: white;
   }
 
   .go {
     background: green;
-    grid-column: 3;
-    grid-row: 3
+    grid-column: 11;
+    grid-row: 11;
   }
 
   .jail {
     background: red;
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 11;
   }
 
   .freeParking {
@@ -40,7 +55,75 @@ $boardSize: 500px;
 
   .goToJail {
     background: orange;
-    grid-column: 3;
+    grid-column: 11;
     grid-row: 1;
+  }
+
+  .communityChest {
+    &.bottom {
+      grid-column: 9;
+      grid-row: 11;
+    }
+  }
+
+  .chance {
+    &.bottom {
+      grid-column: 4;
+      grid-row: 11;
+    }
+  }
+
+  .railroad {
+    &.reading {
+      grid-column: 6;
+      grid-row: 11;
+    }
+
+    &.pennsylvania {
+      grid-column: 1;
+      grid-row: 6;
+    }
+
+    &.bando {
+      grid-column: 6;
+      grid-row: 1;
+    }
+
+    &.shortLine {
+      grid-column: 11;
+      grid-row: 6;
+    }
+  }
+
+  .owosso {
+    background: brown;
+    grid-column: 10;
+    grid-row: 11;
+  }
+
+  .corunna {
+    background: brown;
+    grid-column: 8;
+    grid-row: 11;
+  }
+
+  .incomeTax {
+    grid-column: 7;
+    grid-row: 11;
+  }
+
+  .orientalAvenue {
+    grid-column: 5;
+    grid-row: 11;
+  }
+
+  .vermontAvenue {
+    grid-column: 3;
+    grid-row: 11;
+  }
+
+  .conneticutAvenue {
+    grid-column: 2;
+    grid-row: 11;
   }
 }
